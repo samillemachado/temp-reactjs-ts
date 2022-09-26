@@ -1,10 +1,10 @@
 import React from "react";
 import { Provider } from "react-redux";
 import { ThemeProvider } from "@mui/material/styles";
-import ThemeDefault from "./config/layout/Default";
+import ThemeDefault from "./config/theme/Default";
 
 import AppRoutes from "./routes/AppRoutes";
-import StylesGlobal from "./config/theme/GlobalStyles";
+import StylesGlobal from "./config/GlobalStyles";
 import { store } from "./store";
 
 const App: React.FC = () => {
